@@ -1,16 +1,96 @@
-# React + Vite
+# 🍎 Fruit Learning App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router"/>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  An interactive and educational web application designed to make
+  learning about fruits fun through a gallery, quizzes, and matching games.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <a href="https://github.com/Varunnachimuthu-S/Fruit-Learning-App">
+    View Repository
+  </a>
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Application Screenshots
 
-## Expanding the ESLint configuration
+### 🏠 Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Explore the application and navigate to different learning activities.
+
+![Home Page](docs/screenshots/home.png)
+
+### 🍇 Fruit Gallery
+
+Browse the available fruits and explore the fruit collection.
+
+![Fruit Gallery](docs/screenshots/gallery.png)
+
+### 🎮 Fruit Matching Game
+
+Explore the interactive fruit-matching activity.
+
+![Fruit Matching Game](docs/screenshots/matching.png)
+
+### 🧠 Fruit Quiz
+
+Test your fruit knowledge with an interactive quiz.
+
+![Fruit Quiz](docs/screenshots/quiz.png)
+
+### ➕ Add Fruit
+
+Explore the form for adding new fruits to the application.
+
+![Add Fruit](docs/screenshots/add-fruit.png)
+
+---
+
+## ✨ Features
+
+- 🏠 **Home Page:** Entry point for navigating the application.
+- 🍓 **Fruit Gallery:** Browse a collection of fruits.
+- 🎮 **Matching Game:** Practice through an interactive matching activity.
+- 🧠 **Fruit Quiz:** Test fruit knowledge with a quiz.
+- ➕ **Add Fruit:** Add fruit entries through a form.
+- 🧭 **Page Navigation:** Navigate between pages using React Router.
+- ⚛️ **React Components:** Organize the application into reusable UI components.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React.js | Building the user interface |
+| JavaScript (ES6+) | Application logic and interactions |
+| Vite | Development server and build tool |
+| React Router | Navigation between application pages |
+| HTML5 | Application structure |
+| CSS3 | Styling and responsive layouts |
+| Git & GitHub | Version control and source code hosting |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git (optional, for cloning the repository)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Varunnachimuthu-S/Fruit-Learning-App.git
