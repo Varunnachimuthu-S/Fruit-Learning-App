@@ -1,0 +1,160 @@
+.fruit-card {
+  background: linear-gradient(145deg, #ffffff 0%, #fff8f0 100%);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(255, 107, 53, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  border: 3px solid #ffcc80;
+}
+
+.fruit-card.clickable {
+  cursor: pointer;
+}
+
+.fruit-card.clickable:hover,
+.fruit-card.clickable:focus {
+  transform: translateY(-6px) rotate(1deg);
+  box-shadow: 0 10px 20px rgba(255, 107, 53, 0.25);
+  border-color: #ff9800;
+  outline: none;
+}
+
+.fruit-card.clickable:active {
+  transform: translateY(-3px) rotate(0deg);
+}
+
+.fruit-card-image-container {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #ffcc80;
+}
+
+.fruit-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.fruit-card.clickable:hover .fruit-card-image {
+  transform: scale(1.05);
+}
+
+.fruit-card-content {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 14px;
+}
+
+.fruit-card-name {
+  font-size: 30px;
+  font-weight: 800;
+  color: #e65100;
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255, 152, 0, 0.1);
+}
+
+.fruit-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fruit-card-color {
+  font-size: 19px;
+  color: #f57c00;
+  margin: 0;
+  font-weight: 600;
+}
+
+.fruit-card-facts {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+  background: rgba(255, 224, 178, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.fruit-card-sound-button {
+  background: linear-gradient(135deg, #ff6f00 0%, #ff9800 100%);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 18px 26px;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: auto;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(255, 111, 0, 0.3);
+}
+
+.fruit-card-sound-button:hover {
+  background: linear-gradient(135deg, #e65100 0%, #f57c00 100%);
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(255, 111, 0, 0.4);
+}
+
+.fruit-card-sound-button:active {
+  transform: scale(0.97);
+}
+
+.fruit-card-sound-button:focus {
+  outline: 3px solid #4caf50;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fruit-card,
+  .fruit-card-sound-button,
+  .fruit-card-image {
+    transition: none;
+  }
+  
+  .fruit-card.clickable:hover,
+  .fruit-card.clickable:focus {
+    transform: none;
+  }
+  
+  .fruit-card.clickable:hover .fruit-card-image {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .fruit-card {
+    min-height: 300px;
+  }
+  
+  .fruit-card-image-container {
+    height: 200px;
+  }
+  
+  .fruit-card-name {
+    font-size: 26px;
+  }
+  
+  .fruit-card-sound-button {
+    font-size: 19px;
+    padding: 16px 22px;
+  }
+}
